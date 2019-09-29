@@ -1,0 +1,50 @@
+<!-- OTHER PROGRAMS -->
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<div id="otherProgramsWrapper">
+  <div id="otherPrograms">
+    We are a member of the ASM Wellness family of teaching programs<br /><span class="pgmClick">Click the logos below
+      for more information</span>
+    <div id="otherProgramsLogos"><a href="http://www.atlantainstituteofaesthetics.com" target="_blank"><img
+          src="https://atlantaschoolofmassage.com/wp-content/themes/asm2/images/AIA-logo.png" width="199" height="60"
+          alt="" /></a><a href="http://www.atlantapersonaltrainerprogram.com" target="_blank"><img
+          src="https://atlantaschoolofmassage.com/wp-content/themes/asm2/images/PTP-logo.png" width="245" height="58"
+          alt="" /></a><a href="http://www.sensability.com" target="_blank"><img
+          src="https://atlantaschoolofmassage.com/wp-content/themes/asm2/images/sensability-logo.png" width="206"
+          height="100" alt="" /></a></div>
+    <iframe width="420" height="315"
+      src="https://www.youtube.com/embed/8BXDWeKxPgc">
+      </iframe>
+    <!-- <div id="otherProgramsVideo">
+      <axx href="https://youtube.com/watch?v=8BXDWeKxPgc?lightbox[width]=600&lightbox[height]=448" class="lightbox"><img
+          src="https://atlantaschoolofmassage.com/wp-content/uploads/2018/05/video2018.png" alt="" /></a>
+    </div> -->
+  </div>
+</div>
+
+<?php if(get_field('display_other_programs') == 'Yes') { ?>
+  <div id="otherProgramsWrapper">
+    <div id="otherPrograms">
+      We are a member of the ASM Wellness family of teaching programs<br /><span class="pgmClick">Click the logos below
+        for more information</span>
+        <div id="otherProgramsLogos"><a href="http://www.atlantainstituteofaesthetics.com" target="_blank"><img
+          src="https://atlantaschoolofmassage.com/wp-content/themes/asm2/images/AIA-logo.png" width="199" height="60"
+          alt="" /></a><a href="http://www.atlantapersonaltrainerprogram.com" target="_blank"><img
+          src="https://atlantaschoolofmassage.com/wp-content/themes/asm2/images/PTP-logo.png" width="245" height="58"
+          alt="" /></a><a href="http://www.sensability.com" target="_blank"><img
+          src="https://atlantaschoolofmassage.com/wp-content/themes/asm2/images/sensability-logo.png" width="206"
+          height="100" alt="" /></a></div>
+      <?php if(of_get_option('asm_video_link') && of_get_option('asm_video_width') && of_get_option('asm_video_height')) { ?>
+      <!-- <div id="otherProgramsVideo"><a
+          href="<?php echo(of_get_option('asm_video_link')) ?>?lightbox[width]=<?php echo(of_get_option('asm_video_width')) ?>&lightbox[height]=<?php echo(of_get_option('asm_video_height')) ?>"
+          class="lightbox"><img src="https://atlantaschoolofmassage.com/wp-content/uploads/2018/05/video2018.png"
+            alt="" /></a></div>
+      <?php } ?>
+    </div> -->
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/8BXDWeKxPgc">
+    </iframe>
+  </div>
+  <?php } ?>
+</html>

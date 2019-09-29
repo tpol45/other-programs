@@ -1,0 +1,34 @@
+  /*OTHER PROGRAMS*/
+  
+#otherProgramsWrapper {
+    padding: 30px 0;
+    width: 100%;
+    background: #00364C;
+}
+#otherPrograms {
+    width: 1210px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'pt_sansbold', Arial, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+#otherProgramsLogos {
+    margin: 10px auto;
+    text-align: center;
+}
+#otherProgramsLogos img {
+    vertical-align: middle;
+    margin: 0 80px;
+}
+#otherProgramsLogos img:hover, #otherProgramsVideo img:hover {
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+    -khtml-opacity: 0.7;
+}
+#otherProgramsVideo {
+    margin: 0 auto;
+}
